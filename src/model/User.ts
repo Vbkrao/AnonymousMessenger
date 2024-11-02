@@ -16,7 +16,7 @@ const MessageSchema: Schema<Message>=new Schema({
         required:true,
         default:Date.now
      }
-})
+})  
 
 export interface User extends Document{
     username: string;
