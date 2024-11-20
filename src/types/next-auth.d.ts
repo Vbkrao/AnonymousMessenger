@@ -25,4 +25,4 @@ declare module 'next-auth/jwt' {
     isAcceptingMessages?: boolean;
     username?: string;
   }
-}
+} 
